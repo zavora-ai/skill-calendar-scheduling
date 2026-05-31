@@ -1,28 +1,9 @@
 ---
 name: calendar-scheduling
 description: Orchestrate calendar operations via Google Calendar and Microsoft Graph — find free time, schedule meetings, manage events, track RSVPs, and coordinate across timezones. Use when scheduling meetings, checking availability, creating events, finding free slots, managing calendar invites, or coordinating meeting times.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-calendar server connected (Google Calendar or Microsoft Graph). Optional: mcp-email for meeting follow-ups, mcp-crm for customer meeting context.
-allowed-tools:
-  - list_calendars
-  - list_events
-  - create_event
-  - update_event
-  - delete_event
-  - find_free_time
-  - rsvp_event
-  - get_event
-  - search_events
-  - list_attendees
-tags:
-  - communication
-  - calendar
-  - scheduling
-  - meetings
-references:
-  - references/tool-sequences.md
-  - references/examples.md
+allowed-tools: [list_calendars, list_events, create_event, update_event, delete_event, find_free_time, rsvp_event, get_event, search_events, list_attendees]
 metadata:
   author: Zavora AI
   mcp-server: mcp-calendar
